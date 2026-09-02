@@ -1,0 +1,46 @@
+name: Update TKGS Channel List
+
+on:
+  schedule:
+    # Her gün 03:00 UTC (Türkiye saati 06:00)
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+    # Manuel tetikleme
+
+permissions:
+  contents: write
+
+jobs:
+  update-tkgs:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run TKGS scraper
+        run: python scripts/scrape_tkgs.py --output tkgs_turksat.json
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet tkgs_turksat.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add tkgs_turksat.json
+          git commit -m "Auto-update TKGS list ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+          git push
