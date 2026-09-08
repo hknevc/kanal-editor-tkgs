@@ -1,8 +1,8 @@
 {
-  "version": "2026.09.07",
+  "version": "2026.09.08",
   "satellite": "Turksat 42.0E",
   "description": "TKGS Türksat LCN Sıralama Şablonu – Türksat resmi verisi",
-  "updated_at": "2026-09-07T07:57:05.142789+00:00",
+  "updated_at": "2026-09-08T07:50:20.258891+00:00",
   "source": "turksat.com.tr",
   "channel_count": 370,
   "channels": [
@@ -2600,7 +2600,7 @@
     },
     {
       "lcn": 1246,
-      "name": "TJK tv HD",
+      "name": "YARIŞTAYIZ TV",
       "sid": 0,
       "tsid": 0,
       "onid": 1070,
