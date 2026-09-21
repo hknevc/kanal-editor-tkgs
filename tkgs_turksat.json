@@ -1,8 +1,8 @@
 {
-  "version": "2026.09.20",
+  "version": "2026.09.21",
   "satellite": "Turksat 42.0E",
   "description": "TKGS Türksat LCN Sıralama Şablonu – Türksat resmi verisi",
-  "updated_at": "2026-09-20T08:17:54.414369+00:00",
+  "updated_at": "2026-09-21T08:35:43.958170+00:00",
   "source": "turksat.com.tr",
   "channel_count": 371,
   "channels": [
@@ -467,7 +467,7 @@
     },
     {
       "lcn": 1009,
-      "name": "NTV SERIAL",
+      "name": "IZVESTIYA",
       "sid": 0,
       "tsid": 0,
       "onid": 1070,
@@ -476,7 +476,7 @@
     },
     {
       "lcn": 1010,
-      "name": "IZVESTIYA",
+      "name": "NTV SERIAL",
       "sid": 0,
       "tsid": 0,
       "onid": 1070,
@@ -575,78 +575,6 @@
     },
     {
       "lcn": 1021,
-      "name": "A HABER.",
-      "sid": 0,
-      "tsid": 0,
-      "onid": 1070,
-      "freq": 11833,
-      "pol": "V"
-    },
-    {
-      "lcn": 1022,
-      "name": "KANAL 1",
-      "sid": 0,
-      "tsid": 0,
-      "onid": 1070,
-      "freq": 11845,
-      "pol": "V"
-    },
-    {
-      "lcn": 1023,
-      "name": "HT SPOR",
-      "sid": 0,
-      "tsid": 0,
-      "onid": 1070,
-      "freq": 11845,
-      "pol": "V"
-    },
-    {
-      "lcn": 1024,
-      "name": "TV4 HD",
-      "sid": 0,
-      "tsid": 0,
-      "onid": 1070,
-      "freq": 11862,
-      "pol": "V"
-    },
-    {
-      "lcn": 1025,
-      "name": "HABERTÜRK HD",
-      "sid": 0,
-      "tsid": 0,
-      "onid": 1070,
-      "freq": 11845,
-      "pol": "V"
-    },
-    {
-      "lcn": 1026,
-      "name": "ATV AVRUPA",
-      "sid": 0,
-      "tsid": 0,
-      "onid": 1070,
-      "freq": 11833,
-      "pol": "V"
-    },
-    {
-      "lcn": 1027,
-      "name": "TÜRKMENELİ TV HD",
-      "sid": 0,
-      "tsid": 0,
-      "onid": 1070,
-      "freq": 11825,
-      "pol": "V"
-    },
-    {
-      "lcn": 1028,
-      "name": "A NEWS HD",
-      "sid": 0,
-      "tsid": 0,
-      "onid": 1070,
-      "freq": 11833,
-      "pol": "V"
-    },
-    {
-      "lcn": 1029,
       "name": "SHOW MAX HD",
       "sid": 0,
       "tsid": 0,
@@ -655,12 +583,84 @@
       "pol": "V"
     },
     {
-      "lcn": 1030,
+      "lcn": 1022,
+      "name": "TV4 HD",
+      "sid": 0,
+      "tsid": 0,
+      "onid": 1070,
+      "freq": 11862,
+      "pol": "V"
+    },
+    {
+      "lcn": 1023,
+      "name": "KANAL 1",
+      "sid": 0,
+      "tsid": 0,
+      "onid": 1070,
+      "freq": 11845,
+      "pol": "V"
+    },
+    {
+      "lcn": 1024,
       "name": "SHOW TURK HD",
       "sid": 0,
       "tsid": 0,
       "onid": 1070,
       "freq": 11845,
+      "pol": "V"
+    },
+    {
+      "lcn": 1025,
+      "name": "HT SPOR",
+      "sid": 0,
+      "tsid": 0,
+      "onid": 1070,
+      "freq": 11845,
+      "pol": "V"
+    },
+    {
+      "lcn": 1026,
+      "name": "HABERTÜRK HD",
+      "sid": 0,
+      "tsid": 0,
+      "onid": 1070,
+      "freq": 11845,
+      "pol": "V"
+    },
+    {
+      "lcn": 1027,
+      "name": "ATV AVRUPA",
+      "sid": 0,
+      "tsid": 0,
+      "onid": 1070,
+      "freq": 11833,
+      "pol": "V"
+    },
+    {
+      "lcn": 1028,
+      "name": "A HABER.",
+      "sid": 0,
+      "tsid": 0,
+      "onid": 1070,
+      "freq": 11833,
+      "pol": "V"
+    },
+    {
+      "lcn": 1029,
+      "name": "TÜRKMENELİ TV HD",
+      "sid": 0,
+      "tsid": 0,
+      "onid": 1070,
+      "freq": 11825,
+      "pol": "V"
+    },
+    {
+      "lcn": 1030,
+      "name": "A NEWS HD",
+      "sid": 0,
+      "tsid": 0,
+      "onid": 1070,
+      "freq": 11833,
       "pol": "V"
     },
     {
@@ -1439,24 +1439,6 @@
     },
     {
       "lcn": 1117,
-      "name": "SHOW HD",
-      "sid": 0,
-      "tsid": 0,
-      "onid": 1070,
-      "freq": 12303,
-      "pol": "V"
-    },
-    {
-      "lcn": 1118,
-      "name": "SHOW MAX HD",
-      "sid": 0,
-      "tsid": 0,
-      "onid": 1070,
-      "freq": 12303,
-      "pol": "V"
-    },
-    {
-      "lcn": 1119,
       "name": "KANAL 1",
       "sid": 0,
       "tsid": 0,
@@ -1465,8 +1447,26 @@
       "pol": "V"
     },
     {
-      "lcn": 1120,
+      "lcn": 1118,
       "name": "HABERTÜRK HD",
+      "sid": 0,
+      "tsid": 0,
+      "onid": 1070,
+      "freq": 12303,
+      "pol": "V"
+    },
+    {
+      "lcn": 1119,
+      "name": "SHOW HD",
+      "sid": 0,
+      "tsid": 0,
+      "onid": 1070,
+      "freq": 12303,
+      "pol": "V"
+    },
+    {
+      "lcn": 1120,
+      "name": "SHOW MAX HD",
       "sid": 0,
       "tsid": 0,
       "onid": 1070,
@@ -1943,87 +1943,6 @@
     },
     {
       "lcn": 1173,
-      "name": "RHEMA TV",
-      "sid": 0,
-      "tsid": 0,
-      "onid": 1070,
-      "freq": 12554,
-      "pol": "V"
-    },
-    {
-      "lcn": 1174,
-      "name": "MBC 2",
-      "sid": 0,
-      "tsid": 0,
-      "onid": 1070,
-      "freq": 12554,
-      "pol": "V"
-    },
-    {
-      "lcn": 1175,
-      "name": "PROPERTY TV",
-      "sid": 0,
-      "tsid": 0,
-      "onid": 1070,
-      "freq": 12554,
-      "pol": "V"
-    },
-    {
-      "lcn": 1176,
-      "name": "FOOTPRINT TV",
-      "sid": 0,
-      "tsid": 0,
-      "onid": 1070,
-      "freq": 12554,
-      "pol": "V"
-    },
-    {
-      "lcn": 1177,
-      "name": "CHARISMA TV",
-      "sid": 0,
-      "tsid": 0,
-      "onid": 1070,
-      "freq": 12554,
-      "pol": "V"
-    },
-    {
-      "lcn": 1178,
-      "name": "MAX TV",
-      "sid": 0,
-      "tsid": 0,
-      "onid": 1070,
-      "freq": 12554,
-      "pol": "V"
-    },
-    {
-      "lcn": 1179,
-      "name": "SIRIUS TV",
-      "sid": 0,
-      "tsid": 0,
-      "onid": 1070,
-      "freq": 12554,
-      "pol": "V"
-    },
-    {
-      "lcn": 1180,
-      "name": "MX24 TV",
-      "sid": 0,
-      "tsid": 0,
-      "onid": 1070,
-      "freq": 12554,
-      "pol": "V"
-    },
-    {
-      "lcn": 1181,
-      "name": "GHC",
-      "sid": 0,
-      "tsid": 0,
-      "onid": 1070,
-      "freq": 12554,
-      "pol": "V"
-    },
-    {
-      "lcn": 1182,
       "name": "TRT WORLD",
       "sid": 0,
       "tsid": 0,
@@ -2032,8 +1951,89 @@
       "pol": "V"
     },
     {
+      "lcn": 1174,
+      "name": "RHEMA TV",
+      "sid": 0,
+      "tsid": 0,
+      "onid": 1070,
+      "freq": 12554,
+      "pol": "V"
+    },
+    {
+      "lcn": 1175,
+      "name": "MBC 2",
+      "sid": 0,
+      "tsid": 0,
+      "onid": 1070,
+      "freq": 12554,
+      "pol": "V"
+    },
+    {
+      "lcn": 1176,
+      "name": "PROPERTY TV",
+      "sid": 0,
+      "tsid": 0,
+      "onid": 1070,
+      "freq": 12554,
+      "pol": "V"
+    },
+    {
+      "lcn": 1177,
+      "name": "AIT TV",
+      "sid": 0,
+      "tsid": 0,
+      "onid": 1070,
+      "freq": 12554,
+      "pol": "V"
+    },
+    {
+      "lcn": 1178,
+      "name": "FOOTPRINT TV",
+      "sid": 0,
+      "tsid": 0,
+      "onid": 1070,
+      "freq": 12554,
+      "pol": "V"
+    },
+    {
+      "lcn": 1179,
+      "name": "MAX TV",
+      "sid": 0,
+      "tsid": 0,
+      "onid": 1070,
+      "freq": 12554,
+      "pol": "V"
+    },
+    {
+      "lcn": 1180,
+      "name": "SIRIUS TV",
+      "sid": 0,
+      "tsid": 0,
+      "onid": 1070,
+      "freq": 12554,
+      "pol": "V"
+    },
+    {
+      "lcn": 1181,
+      "name": "MX24 TV",
+      "sid": 0,
+      "tsid": 0,
+      "onid": 1070,
+      "freq": 12554,
+      "pol": "V"
+    },
+    {
+      "lcn": 1182,
+      "name": "GHC",
+      "sid": 0,
+      "tsid": 0,
+      "onid": 1070,
+      "freq": 12554,
+      "pol": "V"
+    },
+    {
       "lcn": 1183,
-      "name": "ABY TV",
+      "name": "AL JAZEERA",
       "sid": 0,
       "tsid": 0,
       "onid": 1070,
@@ -2042,7 +2042,7 @@
     },
     {
       "lcn": 1184,
-      "name": "CRYSTAL TV PLUS",
+      "name": "ABY TV",
       "sid": 0,
       "tsid": 0,
       "onid": 1070,
@@ -2051,7 +2051,7 @@
     },
     {
       "lcn": 1185,
-      "name": "AL JAZEERA",
+      "name": "CRYSTAL TV PLUS",
       "sid": 0,
       "tsid": 0,
       "onid": 1070,
@@ -2069,7 +2069,7 @@
     },
     {
       "lcn": 1187,
-      "name": "KPEGAH TV",
+      "name": "CHARISMA TV",
       "sid": 0,
       "tsid": 0,
       "onid": 1070,
@@ -2132,7 +2132,7 @@
     },
     {
       "lcn": 1194,
-      "name": "AIT TV",
+      "name": "KPEGAH TV",
       "sid": 0,
       "tsid": 0,
       "onid": 1070,
@@ -2150,15 +2150,6 @@
     },
     {
       "lcn": 1196,
-      "name": "AOM TV",
-      "sid": 0,
-      "tsid": 0,
-      "onid": 1070,
-      "freq": 12578,
-      "pol": "V"
-    },
-    {
-      "lcn": 1197,
       "name": "PRAISE TV",
       "sid": 0,
       "tsid": 0,
@@ -2167,7 +2158,7 @@
       "pol": "V"
     },
     {
-      "lcn": 1198,
+      "lcn": 1197,
       "name": "ABS",
       "sid": 0,
       "tsid": 0,
@@ -2176,7 +2167,7 @@
       "pol": "V"
     },
     {
-      "lcn": 1199,
+      "lcn": 1198,
       "name": "EZIOKWU TV",
       "sid": 0,
       "tsid": 0,
@@ -2185,7 +2176,7 @@
       "pol": "V"
     },
     {
-      "lcn": 1200,
+      "lcn": 1199,
       "name": "DIVINE HAND",
       "sid": 0,
       "tsid": 0,
@@ -2194,7 +2185,7 @@
       "pol": "V"
     },
     {
-      "lcn": 1201,
+      "lcn": 1200,
       "name": "BRTV",
       "sid": 0,
       "tsid": 0,
@@ -2203,8 +2194,17 @@
       "pol": "V"
     },
     {
-      "lcn": 1202,
+      "lcn": 1201,
       "name": "UTV",
+      "sid": 0,
+      "tsid": 0,
+      "onid": 1070,
+      "freq": 12578,
+      "pol": "V"
+    },
+    {
+      "lcn": 1202,
+      "name": "Al-Umma",
       "sid": 0,
       "tsid": 0,
       "onid": 1070,
@@ -2222,7 +2222,7 @@
     },
     {
       "lcn": 1204,
-      "name": "Al-Umma",
+      "name": "AOM TV",
       "sid": 0,
       "tsid": 0,
       "onid": 1070,
