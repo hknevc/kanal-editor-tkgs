@@ -1,8 +1,8 @@
 {
-  "version": "2026.09.21",
+  "version": "2026.09.22",
   "satellite": "Turksat 42.0E",
   "description": "TKGS Türksat LCN Sıralama Şablonu – Türksat resmi verisi",
-  "updated_at": "2026-09-21T08:35:43.958170+00:00",
+  "updated_at": "2026-09-22T08:15:25.248561+00:00",
   "source": "turksat.com.tr",
   "channel_count": 371,
   "channels": [
@@ -2933,7 +2933,7 @@
     },
     {
       "lcn": 1283,
-      "name": "EUROSTAR",
+      "name": "ULKE TV HD",
       "sid": 0,
       "tsid": 0,
       "onid": 1070,
@@ -3023,7 +3023,7 @@
     },
     {
       "lcn": 1293,
-      "name": "ULKE TV HD",
+      "name": "EUROSTAR",
       "sid": 0,
       "tsid": 0,
       "onid": 1070,
