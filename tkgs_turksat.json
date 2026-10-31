@@ -1,8 +1,8 @@
 {
-  "version": "2026.10.30",
+  "version": "2026.10.31",
   "satellite": "Turksat 42.0E",
   "description": "TKGS Türksat LCN Sıralama Şablonu – Türksat resmi verisi",
-  "updated_at": "2026-10-30T09:37:36.626004+00:00",
+  "updated_at": "2026-10-31T09:17:56.454024+00:00",
   "source": "turksat.com.tr",
   "channel_count": 369,
   "channels": [
